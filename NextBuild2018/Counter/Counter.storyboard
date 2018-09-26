@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bh5-E1-1hf">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Counter View Controller-->
+        <scene sceneID="lfd-Pp-SbU">
+            <objects>
+                <viewController id="bh5-E1-1hf" customClass="CounterViewController" customModule="NextBuild2018" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FtF-fu-P4c">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="gHR-Ke-pSC">
+                                <rect key="frame" x="153" y="153.5" width="69" height="68.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v8Y-4J-nYU">
+                                        <rect key="frame" x="13.5" y="0.0" width="42" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J7v-xj-6tI">
+                                        <rect key="frame" x="0.0" y="38.5" width="69" height="30"/>
+                                        <state key="normal" title="Increment"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="gHR-Ke-pSC" firstAttribute="centerY" secondItem="FtF-fu-P4c" secondAttribute="centerY" id="HE6-gk-V1X"/>
+                            <constraint firstItem="gHR-Ke-pSC" firstAttribute="centerX" secondItem="FtF-fu-P4c" secondAttribute="centerX" id="bjJ-Ha-DZT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ozd-iw-8uu"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="375"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QHM-R0-kpa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-295" y="81"/>
+        </scene>
+    </scenes>
+</document>

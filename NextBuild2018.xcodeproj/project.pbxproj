@@ -15,6 +15,8 @@
 		027DE96D215C11C500502859 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027DE96C215C11C500502859 /* AppState.swift */; };
 		027DE96F215C11F300502859 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027DE96E215C11F300502859 /* AppReducer.swift */; };
 		027DE971215C122B00502859 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027DE970215C122B00502859 /* AppStore.swift */; };
+		027DE979215C13C200502859 /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027DE978215C13C200502859 /* CounterViewController.swift */; };
+		027DE97D215C151F00502859 /* Counter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 027DE97C215C151F00502859 /* Counter.storyboard */; };
 		18D47E7C97BFF2E1068E7BE8 /* Pods_NextBuild2018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA418615E92A852084A50E2 /* Pods_NextBuild2018.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,8 @@
 		027DE96C215C11C500502859 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		027DE96E215C11F300502859 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
 		027DE970215C122B00502859 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		027DE978215C13C200502859 /* CounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
+		027DE97C215C151F00502859 /* Counter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Counter.storyboard; sourceTree = "<group>"; };
 		36940806FAD0FBF603387B4C /* Pods-NextBuild2018.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextBuild2018.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NextBuild2018/Pods-NextBuild2018.debug.xcconfig"; sourceTree = "<group>"; };
 		6D2800D0FF941E370D473917 /* Pods-NextBuild2018.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextBuild2018.release.xcconfig"; path = "Pods/Target Support Files/Pods-NextBuild2018/Pods-NextBuild2018.release.xcconfig"; sourceTree = "<group>"; };
 		6DA418615E92A852084A50E2 /* Pods_NextBuild2018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NextBuild2018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +71,7 @@
 		02386F83215A380B0043541C /* NextBuild2018 */ = {
 			isa = PBXGroup;
 			children = (
+				027DE977215C13B500502859 /* Counter */,
 				027DE96B215C11B000502859 /* Flow */,
 				02386F84215A380B0043541C /* AppDelegate.swift */,
 				02386F86215A380B0043541C /* ViewController.swift */,
@@ -86,6 +91,15 @@
 				027DE970215C122B00502859 /* AppStore.swift */,
 			);
 			path = Flow;
+			sourceTree = "<group>";
+		};
+		027DE977215C13B500502859 /* Counter */ = {
+			isa = PBXGroup;
+			children = (
+				027DE978215C13C200502859 /* CounterViewController.swift */,
+				027DE97C215C151F00502859 /* Counter.storyboard */,
+			);
+			path = Counter;
 			sourceTree = "<group>";
 		};
 		31BA5A5183671AF170856BD0 /* Pods */ = {
@@ -166,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02386F8F215A380C0043541C /* LaunchScreen.storyboard in Resources */,
+				027DE97D215C151F00502859 /* Counter.storyboard in Resources */,
 				02386F8C215A380C0043541C /* Assets.xcassets in Resources */,
 				02386F8A215A380B0043541C /* Main.storyboard in Resources */,
 			);
@@ -234,6 +249,7 @@
 				027DE96D215C11C500502859 /* AppState.swift in Sources */,
 				027DE971215C122B00502859 /* AppStore.swift in Sources */,
 				02386F87215A380B0043541C /* ViewController.swift in Sources */,
+				027DE979215C13C200502859 /* CounterViewController.swift in Sources */,
 				027DE96F215C11F300502859 /* AppReducer.swift in Sources */,
 				02386F85215A380B0043541C /* AppDelegate.swift in Sources */,
 			);
