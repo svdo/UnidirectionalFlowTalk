@@ -25,13 +25,19 @@ class CounterViewController: UIViewController {
         super.viewDidDisappear(animated)
         connection.disconnect()
     }
+    
+    @IBAction func incrementTapped() {
+        actions.increment()
+    }
 }
 
 extension CounterViewController: Connectable {
     struct Props {
         let counterValue: Int
     }
-    struct Actions {}
+    struct Actions {
+        let increment: () -> Void
+    }
 }
 
 private let mapStateToProps = { (appState: AppState) in
@@ -41,6 +47,8 @@ private let mapStateToProps = { (appState: AppState) in
 }
 
 private let mapDispatchToActions = { (dispatch: @escaping DispatchFunction) in
-    return CounterViewController.Actions()
+    return CounterViewController.Actions(
+        increment: { dispatch(IncrementCounter()) }
+    )
 }
 

@@ -6,6 +6,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="gHR-Ke-pSC">
-                                <rect key="frame" x="153" y="153.5" width="69" height="68.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="gHR-Ke-pSC">
+                                <rect key="frame" x="153" y="158.5" width="69" height="58.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v8Y-4J-nYU">
                                         <rect key="frame" x="13.5" y="0.0" width="42" height="20.5"/>
@@ -27,8 +28,11 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J7v-xj-6tI">
-                                        <rect key="frame" x="0.0" y="38.5" width="69" height="30"/>
+                                        <rect key="frame" x="0.0" y="28.5" width="69" height="30"/>
                                         <state key="normal" title="Increment"/>
+                                        <connections>
+                                            <action selector="incrementTapped" destination="bh5-E1-1hf" eventType="touchUpInside" id="PgT-dU-sbL"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
