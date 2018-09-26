@@ -1,3 +1,3 @@
 struct CounterState {
-    let value: Int
+    var value: Int
 }

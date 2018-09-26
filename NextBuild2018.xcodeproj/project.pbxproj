@@ -19,6 +19,7 @@
 		027DE97D215C151F00502859 /* Counter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 027DE97C215C151F00502859 /* Counter.storyboard */; };
 		027DE97F215C19A900502859 /* CounterState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027DE97E215C19A900502859 /* CounterState.swift */; };
 		027DE981215C1A2300502859 /* CounterReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027DE980215C1A2300502859 /* CounterReducer.swift */; };
+		027DE983215C1BF700502859 /* CounterActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027DE982215C1BF700502859 /* CounterActions.swift */; };
 		18D47E7C97BFF2E1068E7BE8 /* Pods_NextBuild2018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA418615E92A852084A50E2 /* Pods_NextBuild2018.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		027DE97C215C151F00502859 /* Counter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Counter.storyboard; sourceTree = "<group>"; };
 		027DE97E215C19A900502859 /* CounterState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterState.swift; sourceTree = "<group>"; };
 		027DE980215C1A2300502859 /* CounterReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterReducer.swift; sourceTree = "<group>"; };
+		027DE982215C1BF700502859 /* CounterActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterActions.swift; sourceTree = "<group>"; };
 		36940806FAD0FBF603387B4C /* Pods-NextBuild2018.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextBuild2018.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NextBuild2018/Pods-NextBuild2018.debug.xcconfig"; sourceTree = "<group>"; };
 		6D2800D0FF941E370D473917 /* Pods-NextBuild2018.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextBuild2018.release.xcconfig"; path = "Pods/Target Support Files/Pods-NextBuild2018/Pods-NextBuild2018.release.xcconfig"; sourceTree = "<group>"; };
 		6DA418615E92A852084A50E2 /* Pods_NextBuild2018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NextBuild2018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +106,7 @@
 				027DE97C215C151F00502859 /* Counter.storyboard */,
 				027DE97E215C19A900502859 /* CounterState.swift */,
 				027DE980215C1A2300502859 /* CounterReducer.swift */,
+				027DE982215C1BF700502859 /* CounterActions.swift */,
 			);
 			path = Counter;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				027DE983215C1BF700502859 /* CounterActions.swift in Sources */,
 				027DE96D215C11C500502859 /* AppState.swift in Sources */,
 				027DE981215C1A2300502859 /* CounterReducer.swift in Sources */,
 				027DE971215C122B00502859 /* AppStore.swift in Sources */,
