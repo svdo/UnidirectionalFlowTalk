@@ -14,6 +14,9 @@
 		02386F8F215A380C0043541C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02386F8D215A380C0043541C /* LaunchScreen.storyboard */; };
 		027DE986215CA32900502859 /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027DE985215CA32900502859 /* CounterViewController.swift */; };
 		027DE988215CA33E00502859 /* Counter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 027DE987215CA33E00502859 /* Counter.storyboard */; };
+		027DE98B215CABDA00502859 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027DE98A215CABDA00502859 /* AppState.swift */; };
+		027DE98D215CABEA00502859 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027DE98C215CABEA00502859 /* AppReducer.swift */; };
+		027DE98F215CAC0100502859 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027DE98E215CAC0100502859 /* AppStore.swift */; };
 		18D47E7C97BFF2E1068E7BE8 /* Pods_NextBuild2018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA418615E92A852084A50E2 /* Pods_NextBuild2018.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +30,9 @@
 		02386F90215A380C0043541C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		027DE985215CA32900502859 /* CounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
 		027DE987215CA33E00502859 /* Counter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Counter.storyboard; sourceTree = "<group>"; };
+		027DE98A215CABDA00502859 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		027DE98C215CABEA00502859 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		027DE98E215CAC0100502859 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
 		36940806FAD0FBF603387B4C /* Pods-NextBuild2018.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextBuild2018.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NextBuild2018/Pods-NextBuild2018.debug.xcconfig"; sourceTree = "<group>"; };
 		6D2800D0FF941E370D473917 /* Pods-NextBuild2018.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NextBuild2018.release.xcconfig"; path = "Pods/Target Support Files/Pods-NextBuild2018/Pods-NextBuild2018.release.xcconfig"; sourceTree = "<group>"; };
 		6DA418615E92A852084A50E2 /* Pods_NextBuild2018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NextBuild2018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +71,7 @@
 		02386F83215A380B0043541C /* NextBuild2018 */ = {
 			isa = PBXGroup;
 			children = (
+				027DE989215CABCE00502859 /* Flow */,
 				027DE984215CA31800502859 /* Counter */,
 				02386F84215A380B0043541C /* AppDelegate.swift */,
 				02386F86215A380B0043541C /* ViewController.swift */,
@@ -83,6 +90,16 @@
 				027DE987215CA33E00502859 /* Counter.storyboard */,
 			);
 			path = Counter;
+			sourceTree = "<group>";
+		};
+		027DE989215CABCE00502859 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				027DE98A215CABDA00502859 /* AppState.swift */,
+				027DE98C215CABEA00502859 /* AppReducer.swift */,
+				027DE98E215CAC0100502859 /* AppStore.swift */,
+			);
+			path = Flow;
 			sourceTree = "<group>";
 		};
 		31BA5A5183671AF170856BD0 /* Pods */ = {
@@ -232,6 +249,9 @@
 				027DE986215CA32900502859 /* CounterViewController.swift in Sources */,
 				02386F87215A380B0043541C /* ViewController.swift in Sources */,
 				02386F85215A380B0043541C /* AppDelegate.swift in Sources */,
+				027DE98F215CAC0100502859 /* AppStore.swift in Sources */,
+				027DE98B215CABDA00502859 /* AppState.swift in Sources */,
+				027DE98D215CABEA00502859 /* AppReducer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
