@@ -12,6 +12,9 @@
 		02386F8A215A380B0043541C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02386F88215A380B0043541C /* Main.storyboard */; };
 		02386F8C215A380C0043541C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02386F8B215A380C0043541C /* Assets.xcassets */; };
 		02386F8F215A380C0043541C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02386F8D215A380C0043541C /* LaunchScreen.storyboard */; };
+		0278479321BDB25E0031FE35 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0278479221BDB25E0031FE35 /* AppState.swift */; };
+		0278479521BDB26E0031FE35 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0278479421BDB26E0031FE35 /* AppReducer.swift */; };
+		0278479721BDB27A0031FE35 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0278479621BDB27A0031FE35 /* AppStore.swift */; };
 		027DE986215CA32900502859 /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027DE985215CA32900502859 /* CounterViewController.swift */; };
 		027DE988215CA33E00502859 /* Counter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 027DE987215CA33E00502859 /* Counter.storyboard */; };
 		E9609F3F92899A372D6A8F11 /* Pods_UnidirectionalFlowTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5037EA511E49E5F5231187A /* Pods_UnidirectionalFlowTalk.framework */; };
@@ -25,6 +28,9 @@
 		02386F8B215A380C0043541C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02386F8E215A380C0043541C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02386F90215A380C0043541C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0278479221BDB25E0031FE35 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		0278479421BDB26E0031FE35 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		0278479621BDB27A0031FE35 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
 		027DE985215CA32900502859 /* CounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
 		027DE987215CA33E00502859 /* Counter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Counter.storyboard; sourceTree = "<group>"; };
 		6F6E034DEECFD7E5B801A5F1 /* Pods-UnidirectionalFlowTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnidirectionalFlowTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnidirectionalFlowTalk/Pods-UnidirectionalFlowTalk.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,6 +71,7 @@
 		02386F83215A380B0043541C /* UnidirectionalFlowTalk */ = {
 			isa = PBXGroup;
 			children = (
+				0278479121BDB24E0031FE35 /* Flow */,
 				027DE984215CA31800502859 /* Counter */,
 				02386F84215A380B0043541C /* AppDelegate.swift */,
 				02386F86215A380B0043541C /* ViewController.swift */,
@@ -74,6 +81,16 @@
 				02386F90215A380C0043541C /* Info.plist */,
 			);
 			path = UnidirectionalFlowTalk;
+			sourceTree = "<group>";
+		};
+		0278479121BDB24E0031FE35 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				0278479221BDB25E0031FE35 /* AppState.swift */,
+				0278479421BDB26E0031FE35 /* AppReducer.swift */,
+				0278479621BDB27A0031FE35 /* AppStore.swift */,
+			);
+			path = Flow;
 			sourceTree = "<group>";
 		};
 		027DE984215CA31800502859 /* Counter */ = {
@@ -232,6 +249,9 @@
 				027DE986215CA32900502859 /* CounterViewController.swift in Sources */,
 				02386F87215A380B0043541C /* ViewController.swift in Sources */,
 				02386F85215A380B0043541C /* AppDelegate.swift in Sources */,
+				0278479721BDB27A0031FE35 /* AppStore.swift in Sources */,
+				0278479321BDB25E0031FE35 /* AppState.swift in Sources */,
+				0278479521BDB26E0031FE35 /* AppReducer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
