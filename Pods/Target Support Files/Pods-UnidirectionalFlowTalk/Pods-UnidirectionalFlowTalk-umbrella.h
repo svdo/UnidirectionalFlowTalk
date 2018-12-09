@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_NextBuild2018VersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_NextBuild2018VersionString[];
+FOUNDATION_EXPORT double Pods_UnidirectionalFlowTalkVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_UnidirectionalFlowTalkVersionString[];
 

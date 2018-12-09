@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:NextBuild2018.xcodeproj">
+      location = "self:UnidirectionalFlowTalk.xcodeproj">
    </FileRef>
 </Workspace>

@@ -1,4 +1,4 @@
-target 'NextBuild2018' do
+target 'UnidirectionalFlowTalk' do
   use_frameworks!
 
   pod 'ReRxSwift', '~> 2.0'
