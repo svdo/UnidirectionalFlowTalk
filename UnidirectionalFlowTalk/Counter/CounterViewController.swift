@@ -27,6 +27,7 @@ class CounterViewController: UIViewController {
     }
 
     @IBAction func incrementTapped() {
+        actions.incrementCounter()
     }
 }
 
@@ -34,7 +35,9 @@ extension CounterViewController: Connectable {
     struct Props {
         let counterValue: Int
     }
-    struct Actions {}
+    struct Actions {
+        let incrementCounter: () -> Void
+    }
 }
 
 private let mapStateToProps = { (appState: AppState) in
@@ -42,6 +45,8 @@ private let mapStateToProps = { (appState: AppState) in
 }
 
 private let mapDispatchToActions = { (dispatch: @escaping DispatchFunction) in
-    return CounterViewController.Actions()
+    return CounterViewController.Actions(
+        incrementCounter: { dispatch(IncrementCounter()) }
+    )
 }
 
