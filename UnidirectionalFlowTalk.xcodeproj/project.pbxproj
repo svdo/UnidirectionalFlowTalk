@@ -16,6 +16,8 @@
 		0278479521BDB26E0031FE35 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0278479421BDB26E0031FE35 /* AppReducer.swift */; };
 		0278479721BDB27A0031FE35 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0278479621BDB27A0031FE35 /* AppStore.swift */; };
 		027847B021BDBC790031FE35 /* ActionLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027847AF21BDBC790031FE35 /* ActionLogger.swift */; };
+		027847AA21BDB8A90031FE35 /* CounterState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027847A921BDB8A90031FE35 /* CounterState.swift */; };
+		027847AC21BDB8B50031FE35 /* CounterReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027847AB21BDB8B50031FE35 /* CounterReducer.swift */; };
 		027DE986215CA32900502859 /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027DE985215CA32900502859 /* CounterViewController.swift */; };
 		027DE988215CA33E00502859 /* Counter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 027DE987215CA33E00502859 /* Counter.storyboard */; };
 		E9609F3F92899A372D6A8F11 /* Pods_UnidirectionalFlowTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5037EA511E49E5F5231187A /* Pods_UnidirectionalFlowTalk.framework */; };
@@ -33,6 +35,8 @@
 		0278479421BDB26E0031FE35 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
 		0278479621BDB27A0031FE35 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
 		027847AF21BDBC790031FE35 /* ActionLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionLogger.swift; sourceTree = "<group>"; };
+		027847A921BDB8A90031FE35 /* CounterState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterState.swift; sourceTree = "<group>"; };
+		027847AB21BDB8B50031FE35 /* CounterReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterReducer.swift; sourceTree = "<group>"; };
 		027DE985215CA32900502859 /* CounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
 		027DE987215CA33E00502859 /* Counter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Counter.storyboard; sourceTree = "<group>"; };
 		6F6E034DEECFD7E5B801A5F1 /* Pods-UnidirectionalFlowTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnidirectionalFlowTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnidirectionalFlowTalk/Pods-UnidirectionalFlowTalk.debug.xcconfig"; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 			children = (
 				027DE985215CA32900502859 /* CounterViewController.swift */,
 				027DE987215CA33E00502859 /* Counter.storyboard */,
+				027847A921BDB8A90031FE35 /* CounterState.swift */,
+				027847AB21BDB8B50031FE35 /* CounterReducer.swift */,
 			);
 			path = Counter;
 			sourceTree = "<group>";
@@ -250,10 +256,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				027DE986215CA32900502859 /* CounterViewController.swift in Sources */,
+				027847AC21BDB8B50031FE35 /* CounterReducer.swift in Sources */,
 				02386F87215A380B0043541C /* ViewController.swift in Sources */,
 				02386F85215A380B0043541C /* AppDelegate.swift in Sources */,
 				0278479721BDB27A0031FE35 /* AppStore.swift in Sources */,
 				0278479321BDB25E0031FE35 /* AppState.swift in Sources */,
+				027847AA21BDB8A90031FE35 /* CounterState.swift in Sources */,
 				0278479521BDB26E0031FE35 /* AppReducer.swift in Sources */,
 				027847B021BDBC790031FE35 /* ActionLogger.swift in Sources */,
 			);
